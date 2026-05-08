@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eldrin Shadowmere – D&D Character</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/charmain.css">
+</head>
+<body>
+<!-- Animated background canvas -->
+ <canvas id="stars-canvas"></canvas>
+
+ <div class="container">
+
+    <!-- ===== Navigation bar (same as homepage) ===== -->
+<header class="home-header">
+<h1 class="site-title">Sunset Realms Codex</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+         <li class="nav-item dropdown">
+<button class="dropdown-trigger" data-menu="characters">
+              Characters <span class="arrow">▼</span>
+</button>
+            <ul class="dropdown-menu" id="dropdown-characters">
+<li><a href="character.html">Eldrin Shadowmere</a></li>
+             <li><a href="#">Lyra Moonshadow</a></li>
+              <li><a href="#">Thorne Ironvein</a></li>
+             <li><a href="#">Seraphina Dawnstar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+           <button class="dropdown-trigger" data-menu="locations">
+              Locations <span class="arrow">▼</span>
+            </button>
+<ul class="dropdown-menu" id="dropdown-locations">
+<li><a href="#">The Sunken Crypts of Myr</a></li>
+              <li><a href="#">Ghostlight Bridge</a></li>
+             <li><a href="#">Thornhollow Village</a></li>
+<li><a href="#">Silvanus Enclave</a></li>
+              <li><a href="#">Obsidian Peaks</a></li>
+</ul>
+         </li>
+          <li class="nav-item dropdown">
+            <button class="dropdown-trigger" data-menu="other">
+              More <span class="arrow">▼</span>
+           </button>
+           <ul class="dropdown-menu" id="dropdown-other">
+<li><a href="#">Factions</a></li>
+<li><a href="#">Artifacts</a></li>
+              <li><a href="#">Quests</a></li>
+              <li><a href="#">Bestiary</a></li>
+              <li><a href="#">Timeline</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- ===== Character name & subtitle ===== -->
+   <div class="character-header">
+     <h2 class="character-name">Eldrin Shadowmere</h2>
+      <p class="character-subtitle">✦ Half-Elf Hexblade Warlock • Twilight Wanderer ✦</p>
+</div>
+
+   <div class="divider">
+      <i>◆</i>
+    </div>
+
+    <!-- ===== Portrait + stats row ===== -->
+    <section class="character-main">
+      <div class="portrait-frame">
+        <!-- Replace with your own character image -->
+<img src="https://placehold.co/350x450/2d1b33/ffb347?text=Eldrin+Shadowmere&font=playfair-display" alt="Eldrin Shadowmere portrait">
+       <div class="name-plate">The Shadowed Blade</div>
+      </div>
+
+<div class="stats-table">
+<h3>⚔️ Stats</h3>
+        <table>
+          <tr><td>STR</td><td>10</td></tr>
+          <tr><td>DEX</td><td>14</td></tr>
+<tr><td>CON</td><td>13</td></tr>
+          <tr><td>INT</td><td>12</td></tr>
+         <tr><td>WIS</td><td>16</td></tr>
+          <tr><td>CHA</td><td>18</td></tr>
+       </table>
+      </div>
+</section>
+
+    <!-- ===== Lore & deeds ===== -->
+   <section class="story-sections">
+      <div class="story-card">
+        <h2>📜 Lore</h2>
+        <p>
+          Born under a blood‑moon eclipse, Eldrin was cast out from the elven enclave of Silvanus for his forbidden pact with a sentient twilight blade named <em>Umbrathil</em>.
+          The weapon whispers secrets from the Shadowfell, granting him unnatural charisma at the cost of eternal twilight in his soul.
+          Now he roams the borderlands as a mercenary, searching for a way to break the bond without losing his own identity.
+        </p>
+      </div>
+      <div class="story-card">
+        <h2>🗡️ Deeds</h2>
+        <p>
+          ✦ Defeated the Ashen Knight in single combat under the Ghostlight Bridge.<br>
+          ✦ Uncovered the lost Tome of Eclipses in the Sunken Crypts of Myr.<br>
+          ✦ Forged an uneasy alliance with the Raven Queen’s emissary to seal a demonic rift.<br>
+          ✦ Freed the village of Thornhollow from a curse that turned its people into crystal statues.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      ✧ Sunset Realms ✧
+    </footer>
+  </div>
+
+<!-- Scripts -->
+ <script src="scripts/charscript.js"></script>
+  <script src="scripts/homescript.js"></script>
+</body>
+</html>

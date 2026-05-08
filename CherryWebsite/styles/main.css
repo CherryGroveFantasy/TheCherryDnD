@@ -1,0 +1,89 @@
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Playfair Display', serif;
+        background-color: #1a120b;
+        color: #f5e6ca;
+        line-height: 1.6;
+}
+
+.sunset-header{
+        background: linear-gradient(to right, #ff7e5f, #feb47b, #8a2be2, #4b0082);
+        text-align: center;
+        padding: 3rem 1rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.sunset-header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.fancy-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1.5rem;
+    background-color: #3a2c1a;
+    border-top: 3px solid #d4a574;
+    border-bottom: 3px solid #d4a574;
+}
+
+.fancy-nav li{
+    margin: 0 1.5rem;
+}
+
+.fancy-nav a {
+    color: #f5e6ca;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.fancy-nav a:hover{
+    color: #d4a574;
+}
+
+.fancy-nav a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #d4a574;
+    transition: width 0.3s;
+}
+
+.fancy-nav a:hover::after{
+    width: 100%;
+}
+
+.hero{
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #2a1e18;
+    border-left: 5px solid #d4a574;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.hero h2{
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a120b;
+    border-top: 2px solid #d4a574;
+    font-size: 0.9rem;
+}
