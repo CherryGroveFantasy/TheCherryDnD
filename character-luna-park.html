@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Park — BrandName</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=MedievalSharp&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <div class="theme-panel" id="themePanel">
+    <button class="theme-panel-toggle" id="themePanelToggle" aria-label="Toggle theme panel">🛡️</button>
+    <div class="theme-panel-body" id="themePanelBody">
+      <p class="theme-label">Realm</p>
+      <div class="toggle-switch">
+        <input type="checkbox" id="themeToggle" />
+        <label for="themeToggle" class="toggle-slider"></label>
+      </div>
+      <p class="theme-status" id="themeStatus">Royal Blue & Gold</p>
+    </div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">⚔️ BrandName</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="character-detail">
+    <div class="container">
+      <a href="characters.html" class="back-link">← Return to the Chronicles</a>
+      <div class="detail-layout">
+        <div class="detail-image-container">
+          <div class="detail-ring"></div>
+          <img src="https://i.pravatar.cc/600?img=8" alt="Luna Park" class="detail-image" />
+        </div>
+        <div class="detail-info">
+          <p class="character-role">🌿 The Healer</p>
+          <h1 class="detail-name">Luna Park</h1>
+          <div class="character-divider"></div>
+          <div class="detail-meta">
+            <span class="meta-tag">🌿 Nature</span>
+            <span class="meta-tag">💚 Empathy</span>
+            <span class="meta-tag">✨ Spirit</span>
+          </div>
+          <p class="detail-bio">
+            Luna Park is gentle yet unbreakable, keeping the team whole — both physically and emotionally. Raised by her grandmother in a mountain village, Luna learned the healing arts from plants, patience, and silence long before she ever held a modern medical kit.
+          </p>
+          <p class="detail-bio">
+            Her empathy is her greatest weapon — she can read a room the way others read maps. Where others see lost causes, Luna sees people who haven't been given the right care yet. She carries the weight of her team's struggles quietly, always with a steady hand and a warm word. "Everyone heals at their own pace. I'll be here when you're ready."
+          </p>
+          <div class="character-traits">
+            <span class="trait">Compassionate</span>
+            <span class="trait">Wise</span>
+            <span class="trait">Resilient</span>
+            <span class="trait">Patient</span>
+            <span class="trait">Intuitive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>⚜️ &copy; 2026 BrandName. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/indexscript.js"></script>
+</body>
+</html>

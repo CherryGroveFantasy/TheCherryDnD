@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Characters — BrandName</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=MedievalSharp&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Floating Theme Panel -->
+  <div class="theme-panel" id="themePanel">
+    <button class="theme-panel-toggle" id="themePanelToggle" aria-label="Toggle theme panel">
+      🛡️
+    </button>
+    <div class="theme-panel-body" id="themePanelBody">
+      <p class="theme-label">Realm</p>
+      <div class="toggle-switch">
+        <input type="checkbox" id="themeToggle" />
+        <label for="themeToggle" class="toggle-slider"></label>
+      </div>
+      <p class="theme-status" id="themeStatus">Royal Blue & Gold</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">⚔️ BrandName</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="characters.html" class="active">Characters</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Characters Page Banner -->
+  <section class="characters-banner">
+    <div class="container">
+      <h1><span class="ornament">✧</span> Meet the Characters <span class="ornament">✧</span></h1>
+      <p>Click a portrait to unveil each hero's tale and legend.</p>
+    </div>
+  </section>
+
+  <!-- Characters Grid -->
+  <section class="characters-section">
+    <div class="container">
+      <div class="characters-grid">
+
+        <a href="character-alex-storm.html" class="character-card-link">
+          <div class="character-card">
+            <div class="character-image-wrapper">
+              <img src="https://i.pravatar.cc/300?img=1" alt="Alex Storm" class="character-image" />
+              <div class="character-ring"></div>
+            </div>
+            <div class="character-info">
+              <h3 class="character-name">Alex Storm</h3>
+              <p class="character-role">⚔️ The Leader</p>
+              <div class="character-divider"></div>
+              <p class="character-bio">A natural-born strategist with unwavering courage and a heart that refuses to quit.</p>
+              <div class="character-traits">
+                <span class="trait">Brave</span>
+                <span class="trait">Analytical</span>
+                <span class="trait">Inspiring</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="character-mira-chen.html" class="character-card-link">
+          <div class="character-card">
+            <div class="character-image-wrapper">
+              <img src="https://i.pravatar.cc/300?img=5" alt="Mira Chen" class="character-image" />
+              <div class="character-ring"></div>
+            </div>
+            <div class="character-info">
+              <h3 class="character-name">Mira Chen</h3>
+              <p class="character-role">🔮 The Inventor</p>
+              <div class="character-divider"></div>
+              <p class="character-bio">A genius engineer whose curiosity knows no bounds — she builds the impossible.</p>
+              <div class="character-traits">
+                <span class="trait">Creative</span>
+                <span class="trait">Resourceful</span>
+                <span class="trait">Visionary</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="character-kai-reeves.html" class="character-card-link">
+          <div class="character-card">
+            <div class="character-image-wrapper">
+              <img src="https://i.pravatar.cc/300?img=3" alt="Kai Reeves" class="character-image" />
+              <div class="character-ring"></div>
+            </div>
+            <div class="character-info">
+              <h3 class="character-name">Kai Reeves</h3>
+              <p class="character-role">🛡️ The Guardian</p>
+              <div class="character-divider"></div>
+              <p class="character-bio">Fiercely loyal and always ready for action — the team's unbreakable protector.</p>
+              <div class="character-traits">
+                <span class="trait">Loyal</span>
+                <span class="trait">Strong</span>
+                <span class="trait">Fearless</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="character-luna-park.html" class="character-card-link">
+          <div class="character-card">
+            <div class="character-image-wrapper">
+              <img src="https://i.pravatar.cc/300?img=8" alt="Luna Park" class="character-image" />
+              <div class="character-ring"></div>
+            </div>
+            <div class="character-info">
+              <h3 class="character-name">Luna Park</h3>
+              <p class="character-role">🌿 The Healer</p>
+              <div class="character-divider"></div>
+              <p class="character-bio">Gentle yet unbreakable, she keeps the team whole — both physically and emotionally.</p>
+              <div class="character-traits">
+                <span class="trait">Compassionate</span>
+                <span class="trait">Wise</span>
+                <span class="trait">Resilient</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>⚜️ &copy; 2026 BrandName — All rights reserved across all realms.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/indexscript.js"></script>
+</body>
+</html>

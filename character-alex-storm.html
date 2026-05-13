@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Storm — BrandName</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=MedievalSharp&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <div class="theme-panel" id="themePanel">
+    <button class="theme-panel-toggle" id="themePanelToggle" aria-label="Toggle theme panel">🛡️</button>
+    <div class="theme-panel-body" id="themePanelBody">
+      <p class="theme-label">Realm</p>
+      <div class="toggle-switch">
+        <input type="checkbox" id="themeToggle" />
+        <label for="themeToggle" class="toggle-slider"></label>
+      </div>
+      <p class="theme-status" id="themeStatus">Royal Blue & Gold</p>
+    </div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">⚔️ BrandName</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="character-detail">
+    <div class="container">
+      <a href="characters.html" class="back-link">← Return to the Chronicles</a>
+      <div class="detail-layout">
+        <div class="detail-image-container">
+          <div class="detail-ring"></div>
+          <img src="https://i.pravatar.cc/600?img=1" alt="Alex Storm" class="detail-image" />
+        </div>
+        <div class="detail-info">
+          <p class="character-role">⚔️ The Leader</p>
+          <h1 class="detail-name">Alex Storm</h1>
+          <div class="character-divider"></div>
+          <div class="detail-meta">
+            <span class="meta-tag">⚡ Lightning</span>
+            <span class="meta-tag">🛡️ Shield</span>
+            <span class="meta-tag">🧭 Compass</span>
+          </div>
+          <p class="detail-bio">
+            Alex Storm is a natural-born strategist with an unwavering sense of justice. Raised in the heart of a storm-lashed coastal city, Alex learned early that survival depends on preparation and the ability to read the winds of change. Known for calm determination and a sharp mind that always finds a way forward, Alex has led the team through countless impossible situations.
+          </p>
+          <p class="detail-bio">
+            Whether it's rallying allies in the heat of battle or navigating complex political landscapes, Alex's presence alone inspires confidence. The saying goes: "When the storm comes, you don't run from it — you become it."
+          </p>
+          <div class="character-traits">
+            <span class="trait">Brave</span>
+            <span class="trait">Analytical</span>
+            <span class="trait">Inspiring</span>
+            <span class="trait">Decisive</span>
+            <span class="trait">Resilient</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>⚜️ &copy; 2026 BrandName. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/indexscript.js"></script>
+</body>
+</html>

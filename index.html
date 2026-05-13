@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrandName — Realm of Legends</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=MedievalSharp&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Floating Theme Panel -->
+  <div class="theme-panel" id="themePanel">
+    <button class="theme-panel-toggle" id="themePanelToggle" aria-label="Toggle theme panel">
+      🛡️
+    </button>
+    <div class="theme-panel-body" id="themePanelBody">
+      <p class="theme-label">Realm</p>
+      <div class="toggle-switch">
+        <input type="checkbox" id="themeToggle" />
+        <label for="themeToggle" class="toggle-slider"></label>
+      </div>
+      <p class="theme-status" id="themeStatus">Royal Blue & Gold</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">⚔️ BrandName</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" aria-hidden="true"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-subtitle">✦ A New Age Dawns ✦</p>
+        <h1>Welcome to <span class="accent">BrandName</span></h1>
+        <p>Enter a realm where legends are forged. We provide the tools you need to bring your greatest sagas to life.</p>
+        <div class="hero-buttons">
+          <a href="#features" class="btn btn-primary">⚔️ Begin Your Quest</a>
+          <a href="#about" class="btn btn-secondary">📜 Learn More</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-graphic">✦</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2><span class="ornament">❧</span> Features <span class="ornament">❧</span></h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Lightning Fast</h3>
+          <p>Optimized for speed so your experience is always smooth and responsive.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure</h3>
+          <p>Built with security in mind. Your data is protected at every step.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Fully Responsive</h3>
+          <p>Looks great on any device — desktop, tablet, or mobile phone.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>Theme Support</h3>
+          <p>Switch between realms with the floating panel on the left side.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2><span class="ornament">❧</span> About Us <span class="ornament">❧</span></h2>
+      <p>We're a passionate fellowship dedicated to building modern, beautiful, and functional web experiences. Our oath: to make the web better for everyone.</p>
+      <div class="ornament-divider"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Have a question or seek an alliance? We'd love to hear from you, traveler.</p>
+      <a href="mailto:hello@brandname.com" class="btn btn-primary">✉️ Send Message</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">⚜️ &copy; 2026 BrandName — All rights reserved across all realms.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/indexscript.js"></script>
+</body>
+</html>
